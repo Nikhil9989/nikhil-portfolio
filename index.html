@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nikhil Chakravarthy - AI & ML Researcher</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+    <style>
+        .gradient-bg {
+            background: linear-gradient(90deg, #4F46E5 0%, #7C3AED 100%);
+        }
+        .text-gradient {
+            background: linear-gradient(90deg, #4F46E5 0%, #7C3AED 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .nav-link:hover {
+            color: #7C3AED;
+            transform: translateY(-2px);
+        }
+        .project-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -9px;
+            top: 0;
+            width: 18px;
+            height: 18px;
+            border-radius: 50%;
+            background: #7C3AED;
+            border: 3px solid white;
+        }
+        .publication-card:hover {
+            border-left: 4px solid #7C3AED;
+        }
+    </style>
+    <meta name="description" content="Portfolio of Nikhil Chakravarthy Mallela - Software Engineer and Machine Learning specialist focusing on computer vision, medical image classification, and applied deep learning.">
+    <meta name="keywords" content="Nikhil Chakravarthy, Machine Learning, Computer Vision, AI, Software Engineer, PhD, Research, Medical Image Classification">
+    <meta name="author" content="Nikhil Chakravarthy Mallela">
+</head>
+<body class="bg-gray-50 font-sans">
+    <!-- Navbar -->
+    <nav class="bg-white shadow-sm fixed w-full z-10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <span class="text-2xl font-bold text-gradient">NC</span>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#home" class="nav-link text-gray-600 hover:text-indigo-600 transition-all duration-300">Home</a>
+                    <a href="#about" class="nav-link text-gray-600 hover:text-indigo-600 transition-all duration-300">About</a>
+                    <a href="#experience" class="nav-link text-gray-600 hover:text-indigo-600 transition-all duration-300">Experience</a>
+                    <a href="#research" class="nav-link text-gray-600 hover:text-indigo-600 transition-all duration-300">Research</a>
+                    <a href="#projects" class="nav-link text-gray-600 hover:text-indigo-600 transition-all duration-300">Projects</a>
+                    <a href="#skills" class="nav-link text-gray-600 hover:text-indigo-600 transition-all duration-300">Skills</a>
+                    <a href="#contact" class="nav-link text-gray-600 hover:text-indigo-600 transition-all duration-300">Contact</a>
+                </div>
+                <div class="md:hidden flex items-center">
+                    <button class="text-gray-600">
+                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="pt-24 md:pt-32 pb-20 md:pb-32 relative overflow-hidden animate-fade-in">
+        <div class="absolute inset-0 z-0">
+            <div class="absolute inset-0 bg-gradient-to-br from-indigo-50 to-purple-50 opacity-70"></div>
+            <div class="absolute w-96 h-96 bg-indigo-100 rounded-full -top-20 -left-20 blur-3xl opacity-50"></div>
+            <div class="absolute w-96 h-96 bg-purple-100 rounded-full -bottom-20 -right-20 blur-3xl opacity-50"></div>
+        </div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="flex flex-col md:flex-row items-center justify-between">
+                <div class="md:w-1/2 mb-10 md:mb-0">
+                    <h2 class="text-lg font-medium text-indigo-600 mb-2">AI & Machine Learning Researcher</h2>
+                    <h1 class="text-4xl md:text-5xl font-bold text-gray-800 leading-tight mb-4">
+                        Nikhil Chakravarthy <span class="block mt-2">Mallela</span>
+                    </h1>
+                    <p class="text-lg text-gray-600 mb-8 max-w-lg hero-typewriter">
+                        Software Engineer and ML specialist with a passion for medical image classification and computer vision, working at the intersection of research and industry.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="#contact" class="px-6 py-3 bg-indigo-600 text-white font-medium rounded-lg shadow-md hover:bg-indigo-700 transition-all duration-300">Contact Me</a>
+                        <a href="assets/resume/resume.pdf" class="px-6 py-3 border border-gray-300 text-gray-700 font-medium rounded-lg hover:bg-gray-50 transition-all duration-300">Download CV</a>
+                    </div>
+                </div>
+                <div class="md:w-5/12">
+                    <div class="relative animate-float">
+                        <div class="absolute inset-0 bg-indigo-100 rounded-full blur-2xl opacity-70 transform scale-110"></div>
+                        <img src="assets/images/profile.jpg" alt="Nikhil Chakravarthy" class="relative rounded-full border-4 border-white shadow-xl w-64 h-64 md:w-80 md:h-80 object-cover mx-auto" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
