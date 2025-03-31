@@ -2,6 +2,13 @@
 
 A modern, responsive portfolio website showcasing my professional experience, research publications, projects, and skills. This portfolio is designed to highlight my qualification for PhD programs in Computer Science with a focus on AI/ML and Computer Vision.
 
+## Latest Updates (March 31, 2025)
+
+- **Updated Work Experience**: Added latest role as MTS Software Engineer 3 and detailed accomplishments at NetApp
+- **Expanded Projects Section**: Added 6 additional projects from my professional and academic history
+- **Added Honors & Awards**: New section highlighting professional and academic achievements
+- **Enhanced Resume**: Comprehensive update with the latest information (see resume_update_instructions.md in assets/resume)
+
 ## Features
 
 - **Responsive Design**: Optimized for all device sizes
@@ -23,7 +30,7 @@ A modern, responsive portfolio website showcasing my professional experience, re
 ## Sections
 
 1. **Hero**: Introduction and call-to-action
-2. **About**: Personal background, research interests, education, and certifications
+2. **About**: Personal background, research interests, education, certifications, and honors
 3. **Experience**: Professional work history with detailed responsibilities
 4. **Research**: Published research papers with impact metrics
 5. **Projects**: Showcase of key projects with descriptions and technologies used
